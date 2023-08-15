@@ -1,0 +1,573 @@
+
+/*FUENTE DE GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.bg-primary {
+    background-image: url("../sources/corte-metal-equipos-plasma.jpg");
+    height: 750px;
+    background-size: cover;
+}
+
+
+/*-----------CSS  NAVBAR----------*/
+
+.navbar {
+    line-height: 30px;
+}
+
+.logo-img {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.logo-img:hover {
+    cursor: pointer;
+   /* margin-top: 10px;
+    box-shadow: 2px 2px 5px 2px rgba(253, 254, 254, 0.3);*/
+}
+
+.div-indice {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    float: right; 
+    margin-right: 75px;
+
+}
+
+.indice {
+        margin-left: 50px;
+        color: white;
+        font-size: 20px;
+        font-family: monospace;
+        font-weight: bold; 
+
+}
+
+.indice:hover {
+    cursor: pointer;
+    /*background-color: rgb(40, 55, 71 ,0.4 );*/
+    margin-bottom: 50px;
+    text-shadow: 5px 5px 5px rgba(253, 254, 254, 0.5);
+
+}
+
+/*---------------FINALIZA CSS DE NAVBAR------------------*/
+
+/*--------------------CSS TITULO-------------------------*/
+
+.principal {
+    text-align: center;
+    color: white;
+    /*line-height: 100px;*/
+}
+
+.titulo-head {
+    font-size: 200px;
+    line-height: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.subtitulo-head {
+    font-size: 40px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    margin: 0;
+}
+
+.btn-head {
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+    border: 2px solid goldenrod;
+    margin-top: 50px;
+    line-height: 40px;
+    width: 170px;
+}
+
+.btn-head:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: white;
+    opacity: 0.6;
+}
+
+
+/*METODO PARA BARRIDO DE TITULO*/
+.titulo-head, .subtitulo-head, .btn-head{
+    animation: 5s aparecer forwards;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        top: 150px;
+    }
+
+    100%{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+
+/*----------TRERMINA CSS DE TITULO---------------*/
+
+/*----------------MAIN CSS-----------------------*/
+.info-container {
+    background-color: black;
+}
+
+.services {
+    display: flex;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    margin: 20px;
+}
+
+.txt-title{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+}
+
+.target-1 {
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.target-1:hover {
+    margin-top: 5px;
+}
+
+.target-1:hover .txt-targ1 {
+    cursor: default;
+    margin-top: 100px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+}
+
+.target-1:hover .img-punzonado {
+    opacity: 0.4;
+}
+
+.txt-targ1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.img-punzonado {
+    width: 250px;
+    height: 350px;
+}
+
+.target-2 {
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.target-2:hover {
+    margin-top: 5px;
+}
+
+.target-2:hover .txt-targ2{
+    cursor: default;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+    margin-top: 100px;
+}
+
+.target-2:hover .img-Cizalla {
+    opacity: 0.4;   
+}
+
+.txt-targ2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.target-3 {
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.target-3:hover {
+    margin-top: 5px;
+}
+
+.img-laser {
+    width: 250px;
+    height: 350px;
+}
+
+.img-laser:hover {
+    opacity: 0.4;
+}
+
+.target-3:hover .txt-targ3 {
+    cursor: default;
+    margin-top: 100px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+}
+
+.target-3:hover .img-punzonado {
+    opacity: 0.4;
+}
+
+.target-3:hover .btn-targ3 {
+    cursor: pointer;
+    visibility: visible;
+    color: rgb(184, 178, 178);
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+
+}
+
+.txt-targ3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.btn-targ3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.txt-targ3:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.target-4 {
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.target-4:hover {
+    margin-top: 5px;
+}
+
+.img-doblez {
+    width: 250px;
+    height: 350px;
+}
+
+
+.target-4:hover .txt-targ4 {
+    cursor: default;
+    margin-top: 100px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+}
+
+.target-4:hover .img-doblez {
+    opacity: 0.6;
+}
+
+.txt-targ4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.btn-targ4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.txt-targ4:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.target-5 {
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+.img-soldadura {
+    width: 250px;
+    height: 350px;
+}
+
+.target-5:hover {
+    margin-top: 5px;
+}
+
+.txt-targ5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.target-5:hover .txt-targ5 {
+    cursor: default;
+    margin-top: 100px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+}
+
+.txt-targ4:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+
+.target-5:hover .img-soldadura {
+    opacity: 0.6;
+}
+
+.target-6 {
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img-pintura {
+    width: 250px;
+    height: 350px;
+}
+
+.target-6:hover {
+    margin-top: 5px;
+}
+
+.txt-targ6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.target-6:hover .txt-targ6 {
+    cursor: default;
+    margin-top: 100px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
+}
+
+.txt-targ6:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+
+.target-6:hover .img-pintura {
+    opacity: 0.6;
+}
+
+/*-----------------CSS DIV INFO---------------------*/
+
+#our-info { 
+    background-image: url("../sources/fondo\ corte.jpg");
+    height: 400px;
+    margin-top: 100px;
+}
+
+#fondo-container {
+    height: 400px;
+    background-color: rgba(0, 4, 57, 0.8) !important;
+}
+
+
+#our-title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    padding-top: 100px;
+    margin: 0;
+}
+
+#our-frase {
+    margin: 0;
+    color: rgb(239, 199, 0);
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Fjalla One', sans-serif;
+    padding-top: 20px;
+}
+
+#our-desc {
+    color: rgb(164, 162, 162);
+    margin: 45px 65px 0px 65px;
+}
+
+/*------------footer----------*/
+
+#services-section{
+    align-items: center;
+    float: right; 
+}
+
+#image-footer{
+    width: 10px;
+    height: 20px;
+}
+
+#indice-section{
+    display: flex;
+}
+
+.indice-end {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    padding: 12px;
+}
+
+.indice-end:hover{
+    cursor: pointer;
+    color: rgb(184, 178, 178);
+}
+
+
+
+
+
