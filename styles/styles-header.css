@@ -51,7 +51,7 @@ a{
 }
 
 .navbar:hover{
-    background-color: rgb(40, 55, 71 ,0.5 );
+    background-color: rgb(40, 55, 71 ,0.8 );
 }
 
 .logo-img {
@@ -179,6 +179,7 @@ a{
 
 .services {
     display: flex;
+    justify-content: center;
     /*margin-left: 10px;
     margin-right: 10px;*/
     margin: 20px;
@@ -196,8 +197,8 @@ a{
 .target-services{
     border: 1px solid black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 250px;
-    height: 350px;
+    width: 220px;
+    height: 300px;
     text-align: center;
     position: relative;
     display: inline-block;
@@ -205,8 +206,8 @@ a{
 }
 
 .img-target{
-    width: 250px;
-    height: 350px;
+    width: 220px;
+    height: 320px;
 }
 
 .target-services:hover{
