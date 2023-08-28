@@ -23,6 +23,10 @@ body{
     line-height: 30px;
 }
 
+.navbar:hover{
+    background-color: rgb(40, 55, 71 ,0.5 );
+}
+
 .logo-img {
     width: 200px;
     margin-left: 50px;
@@ -44,20 +48,25 @@ body{
 
 }
 
+.div-indice:hover{
+    cursor: pointer;
+    /*background-color: rgb(40, 55, 71 ,0.2 );
+    text-shadow: 5px 5px 5px rgba(253, 254, 254, 0.5);*/
+}
+
 .indice {
         margin-left: 50px;
         color: white;
         font-size: 20px;
         font-family: monospace;
         font-weight: bold; 
-
 }
 
 .indice:hover {
     cursor: pointer;
-    /*background-color: rgb(40, 55, 71 ,0.4 );*/
-    margin-bottom: 50px;
-    text-shadow: 5px 5px 5px rgba(253, 254, 254, 0.5);
+   /* margin-bottom: 50px;
+    text-shadow: 5px 5px 5px rgba(253, 254, 254, 0.5);*/
+    color: rgba(253, 254, 254, 0.5);
 
 }
 
@@ -155,50 +164,7 @@ body{
     margin-top: 80px;
 }
 
-.target-1 {
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 250px;
-    height: 350px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-}
-
-.target-1:hover {
-    margin-top: 5px;
-}
-
-.target-1:hover .txt-targ1 {
-    cursor: default;
-    margin-top: 100px;
-    color: white;
-    opacity: 0.8;
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
-}
-
-.target-1:hover .img-punzonado {
-    opacity: 0.4;
-}
-
-.txt-targ1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-.img-punzonado {
-    width: 250px;
-    height: 350px;
-}
-
-.target-2 {
+.target-services{
     border: 1px solid black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 250px;
@@ -209,11 +175,21 @@ body{
     margin-left: 20px;
 }
 
-.target-2:hover {
+.img-target{
+    width: 250px;
+    height: 350px;
+}
+
+.target-services:hover{
     margin-top: 5px;
 }
 
-.target-2:hover .txt-targ2{
+.target-services:hover .img-target {
+    opacity: 0.4;
+    filter: blur(2px);
+}
+
+.target-services:hover .txt-target{
     cursor: default;
     color: white;
     opacity: 0.8;
@@ -221,69 +197,7 @@ body{
     margin-top: 100px;
 }
 
-.target-2:hover .img-Cizalla {
-    opacity: 0.4;   
-}
-
-.txt-targ2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-.target-3 {
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 250px;
-    height: 350px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    margin-left: 20px;
-
-}
-
-.target-3:hover {
-    margin-top: 5px;
-}
-
-.img-laser {
-    width: 250px;
-    height: 350px;
-}
-
-.img-laser:hover {
-    opacity: 0.4;
-}
-
-.target-3:hover .txt-targ3 {
-    cursor: default;
-    margin-top: 100px;
-    color: white;
-    opacity: 0.8;
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
-}
-
-.target-3:hover .img-punzonado {
-    opacity: 0.4;
-}
-
-.target-3:hover .btn-targ3 {
-    cursor: pointer;
-    visibility: visible;
-    color: rgb(184, 178, 178);
-    opacity: 0.8;
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
-
-}
-
-.txt-targ3 {
+.txt-target{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -305,201 +219,6 @@ body{
     font-size: 12px;
     opacity: 0.6;
     visibility: hidden;
-}
-
-.txt-targ3:hover {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-
-}
-
-.target-4 {
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 250px;
-    height: 350px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.target-4:hover {
-    margin-top: 5px;
-}
-
-.img-doblez {
-    width: 250px;
-    height: 350px;
-}
-
-
-.target-4:hover .txt-targ4 {
-    cursor: default;
-    margin-top: 100px;
-    color: white;
-    opacity: 0.8;
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
-}
-
-.target-4:hover .img-doblez {
-    opacity: 0.6;
-}
-
-.txt-targ4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-.btn-targ4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    font-weight: bold;
-    font-size: 12px;
-    opacity: 0.6;
-    visibility: hidden;
-}
-
-.txt-targ4:hover {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-.target-5 {
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 250px;
-    height: 350px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    margin-left: 20px;
-}
-.img-soldadura {
-    width: 250px;
-    height: 350px;
-}
-
-.target-5:hover {
-    margin-top: 5px;
-}
-
-.txt-targ5 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-.target-5:hover .txt-targ5 {
-    cursor: default;
-    margin-top: 100px;
-    color: white;
-    opacity: 0.8;
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
-}
-
-.txt-targ4:hover {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-
-.target-5:hover .img-soldadura {
-    opacity: 0.6;
-}
-
-.target-6 {
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 250px;
-    height: 350px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.img-pintura {
-    width: 250px;
-    height: 350px;
-}
-
-.target-6:hover {
-    margin-top: 5px;
-}
-
-.txt-targ6 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-.target-6:hover .txt-targ6 {
-    cursor: default;
-    margin-top: 100px;
-    color: white;
-    opacity: 0.8;
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
-}
-
-.txt-targ6:hover {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 140px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    opacity: 0.6;
-}
-
-
-.target-6:hover .img-pintura {
-    opacity: 0.6;
 }
 
 /*-----------------CSS DIV INFO---------------------*/
