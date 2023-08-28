@@ -154,6 +154,7 @@ body{
     /*margin-left: 10px;
     margin-right: 10px;*/
     margin: 20px;
+    margin-bottom: 250px;
 }
 
 .txt-title{
@@ -260,6 +261,11 @@ body{
 
 /*------------footer----------*/
 
+#footer-contain{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
 #services-section{
     align-items: center;
     float: right; 
@@ -268,10 +274,12 @@ body{
 #image-footer{
     width: 10px;
     height: 20px;
+    margin-left: 30px;
 }
 
 #indice-section{
     display: flex;
+    margin-right: 50px;
 }
 
 .indice-end {
@@ -286,7 +294,79 @@ body{
     color: rgb(184, 178, 178);
 }
 
+#socialmedia-section{
+    display: flex;
+    margin-left: 65px;
+}
 
+.icons{
+    width: 18px;
+    height: 18px;
+    margin-right: 70px;
+}
+
+.icons:hover{
+    cursor: pointer;
+    filter: drop-shadow(2px 5px 5px rgba(255, 255, 255, 0.6));
+    
+}
+
+.txt-contacto{
+    color: #919191;
+    font-size: 20px
+}
+
+hr{
+    margin: 20px;
+    border-color: #919191;
+}
+
+#contain-info{
+display: flex;
+justify-content: center;
+}
+
+#info-contacto:hover{
+    cursor: default;
+}
+
+#info-street{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#autor-section{
+    display: flex;
+    background-color: rgba(0, 4, 57);
+
+}
+
+#contenido-autor{
+    float: left;
+}
+
+#autor-contain{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.txt-autor{
+    color: #B4B3B3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.txt-autor:hover{
+    cursor: default;
+}
+
+#img-autor{
+    width: 14px;
+    height: 14px;
+}
 
 
 
