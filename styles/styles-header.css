@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
-
-
 body{
     margin: 0;
     background-color: black;
@@ -38,7 +36,7 @@ a{
 
 .bg-primary {
     background-image: url("../sources/corte-metal-equipos-plasma.jpg");
-    height: 750px;
+    height: 970px;
     background-size: cover;
     cursor: default;
 }
@@ -61,7 +59,7 @@ a{
 }
 
 .logo-img:hover {
-    cursor: pointer;
+    cursor: default;
    /* margin-top: 10px;
     box-shadow: 2px 2px 5px 2px rgba(253, 254, 254, 0.3);*/
 }
